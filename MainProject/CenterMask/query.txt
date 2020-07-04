@@ -1,0 +1,2 @@
+python tools/test_net.py --config-file "configs/centermask/centermask_V_99_eSE_FPN_ms_3x.yaml" TEST.IMS_PER_BATCH 1 MODEL.WEIGHT centermask-V2-99-FPN-ms-3x.pth
+python "demo/centermask_demo.py" --config-file "configs/centermask/centermask_V_99_eSE_FPN_ms_3x.yaml" --weights "centermask-V2-99-FPN-ms-3x.pth" --conf_th 0.6 --display_text True --display_scores True --input "E:\linux\doan_tn\generative_inpainting-master\examples\places2\case4_raw.png" --output_dir "output"

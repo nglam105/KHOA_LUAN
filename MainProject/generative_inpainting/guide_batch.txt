@@ -1,0 +1,1 @@
+examples/places2/case1_input.png examples/places2/case1_mask.png examples/places2/case1_output.png
